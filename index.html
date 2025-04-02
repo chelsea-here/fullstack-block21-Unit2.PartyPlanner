@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Event Manager</h1>
+    <hr />
+    <form id="eventForm">
+      <h3>Add a new event:</h3>
+      <div>
+        <label>Name</label>
+        <input type="text" name="name" required />
+      </div>
+      <div>
+        <label>Date</label>
+        <input type="datetime-local" name="date" required />
+      </div>
+      <div>
+        <label>Location</label>
+        <input type="text" name="location" required />
+      </div>
+      <div>
+        <label>Description</label>
+        <input type="text" name="description" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <hr />
+    <h2>Event List</h2>
+    <div id="eventList">
+      <!-- to do: populate event list -->
+      <!-- <div class="event">
+        <h2>Event Name</h2>
+        <p>This is a simple web page.</p>
+        <button id="myButton">Click Me!</button>
+      </div> -->
+    </div>
+  </body>
+</html>
